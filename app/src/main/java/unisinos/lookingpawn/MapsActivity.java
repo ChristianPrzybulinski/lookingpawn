@@ -104,7 +104,7 @@ public class MapsActivity extends AppCompatActivity
 
             @Override
             public void onClick(View v) {
-                Toast.makeText(MapsActivity.this, "add doge", Toast.LENGTH_LONG).show();
+                Toast.makeText(MapsActivity.this, "add paw", Toast.LENGTH_LONG).show();
                 dialogShow();
             }
         });
@@ -218,8 +218,8 @@ public class MapsActivity extends AppCompatActivity
     private void dialogShowCustom(final LatLng latLng) {
             final AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
-            builder.setMessage("Do you want to add a lost dog?");
-            builder.setTitle("Adding a dog");
+            builder.setMessage("Do you want to add a lost paw?");
+            builder.setTitle("Adding a paw");
 
             //This will not allow to close dialogbox until user selects an option
             builder.setCancelable(false);
@@ -230,14 +230,14 @@ public class MapsActivity extends AppCompatActivity
 
             // Add a TextView here for the "Title" label, as noted in the comments
             titleBox = new EditText(this);
-            titleBox.setHint("Dog Description");
+            titleBox.setHint("Paw Description");
             titleBox.setMaxLines(3);
             layout.addView(titleBox);
             layout.setHorizontalScrollBarEnabled(false);
 
             s = new Spinner(this);
             String array_spinner[] = {
-                    "Vira-lata", "Pastor alemão", "indefinido"
+                    "Dog", "Cat", "Other"
             };
             ArrayAdapter adapter = new ArrayAdapter(this,
                     android.R.layout.simple_spinner_item, array_spinner);
@@ -378,8 +378,8 @@ public class MapsActivity extends AppCompatActivity
     public void onInfoWindowLongClick(final Marker marker) {
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
-        builder.setMessage("Do you want to delete this dog marker?");
-        builder.setTitle("Deleting a dog");
+        builder.setMessage("Do you want to delete this paw marker?");
+        builder.setTitle("Deleting a paw");
 
         //This will not allow to close dialogbox until user selects an option
         builder.setCancelable(false);
