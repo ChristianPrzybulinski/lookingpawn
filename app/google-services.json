@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "546723233099",
+    "firebase_url": "https://looking-for-pawns.firebaseio.com",
+    "project_id": "looking-for-pawns",
+    "storage_bucket": "looking-for-pawns.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546723233099:android:bd7cb14525abacf6",
+        "android_client_info": {
+          "package_name": "unisinos.lookingpawn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546723233099-m6vdc9nfhivdr8o28r3k7jsfveso2v0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYV69pc_Uyf0KRC6j6cju6-o0I9LHpW-g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
